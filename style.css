@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(bisque,slategrey,orange);
+}
+
+/* navbar */
+.navbar{
+    background-color: navy;
+}
+.navbar a{
+    color: rgb(234, 230, 224);
+}
+.navbar a:hover{
+    color: burlywood;
+}
+/* tutup navbar */
+
+
+/* carousel */
+.carousel-inner{
+    margin: auto;
+    border-bottom: 3px double black;
+}
+
+.carousel-control-prev-icon{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.carousel-control-next-icon{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* tutup carousel */
+
+
+/* product */
+.text-product{
+    text-align: center;
+    font-weight: 500;
+    font-size: calc(5vw + 2rem);
+    margin-bottom: -15px;
+    color: burlywood;
+    text-shadow: 2px 2px 2px white;
+}
+.container-product{
+    max-width: 1300px;
+    width: calc(100vw - 2rem);
+    background-image: linear-gradient(rgb(179, 142, 72),grey,bisque);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.container-product .card{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* tutup product */
+
+
+
+
+
+
+
